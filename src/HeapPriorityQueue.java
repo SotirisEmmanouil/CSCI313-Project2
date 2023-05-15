@@ -77,7 +77,7 @@ public class HeapPriorityQueue<K,V> extends AbstractPriorityQueue<K,V> {
                              swap(j, smallChildIndex);
                              j = smallChildIndex;
                              j = smallChildIndex;
-                             return (2*j + 1);
+                             return downheap(2*j + 1);
                          
              
 							}				
