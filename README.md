@@ -5,3 +5,4 @@
 
 1. Modify the `upheap()` method by making it recursive and add some elements to a Heap Priority Queue.
 2. Create a SkipList from scratch with key-value parameters.
+3. Implement a recursive merge sort algorithm.
