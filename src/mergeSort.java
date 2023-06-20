@@ -15,7 +15,7 @@ public class mergeSort {
         for (int i = 0; i < mid; i++) {	 //fill each of the two arrays
             left[i] = array[i];
         }
-        for (int i = mid; i < array.length; i++) {
+        for (int i = mid; i < array.length; i++) {    //fill where the other array has stopped
             right[i - mid] = array[i];
         }
         
